@@ -1,3 +1,4 @@
+import 'package:awesome_flutter_coding/hero_image_page.dart';
 import 'package:awesome_flutter_coding/tabbar_inside_body.dart';
 import 'package:flutter/material.dart';
 
@@ -32,11 +33,11 @@ List exampleList = [
     exampleImage: 'assets/images/TabbarWithScrollView.png',
     examplePage: TabbarWithScrollView(),
   ),
-  // ExampleList(
-  //   exampleTitle: 'A simple Scrollablebody with fixed topBar',
-  //   exampleDescription:
-  //       'having a fixed topbar below the appBar,and a endless list widget inside the body',
-  //   exampleImage: 'assets/images/ScrollBodyFixedTopBar.png',
-  //   examplePage: ScrollBodyFixedTopBar(),
-  // ),
+  ExampleList(
+    exampleTitle: 'A simple Scrollablebody with fixed topBar',
+    exampleDescription:
+        'having a fixed topbar below the appBar,and a endless list widget inside the body',
+    exampleImage: 'assets/images/ScrollBodyFixedTopBar.png',
+    examplePage: HeroImagePage(),
+  ),
 ];
