@@ -26,17 +26,17 @@ List exampleList = [
     examplePage: ScrollBodyFixedTopBar(),
   ),
   ExampleList(
-    exampleTitle: 'A simple Scrollablebody with fixed topBar',
+    exampleTitle: 'TabbarInsideSilverAppbar',
     exampleDescription:
-        'having a fixed topbar below the appBar,and a endless list widget inside the body',
-    exampleImage: 'assets/images/ScrollBodyFixedTopBar.png',
+        'Set the SilverAppbar in body of Scaffold, the tabbar tabbarview is inside it. TabBarView is set inside the widget SliverFillRemaining',
+    exampleImage: 'assets/images/TabbarWithScrollView.png',
     examplePage: TabbarWithScrollView(),
   ),
-  ExampleList(
-    exampleTitle: 'A simple Scrollablebody with fixed topBar',
-    exampleDescription:
-        'having a fixed topbar below the appBar,and a endless list widget inside the body',
-    exampleImage: 'assets/images/ScrollBodyFixedTopBar.png',
-    examplePage: ScrollBodyFixedTopBar(),
-  ),
+  // ExampleList(
+  //   exampleTitle: 'A simple Scrollablebody with fixed topBar',
+  //   exampleDescription:
+  //       'having a fixed topbar below the appBar,and a endless list widget inside the body',
+  //   exampleImage: 'assets/images/ScrollBodyFixedTopBar.png',
+  //   examplePage: ScrollBodyFixedTopBar(),
+  // ),
 ];

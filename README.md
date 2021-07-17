@@ -1,4 +1,4 @@
-# awesome_flutter_coding
+# Reusable custom components in Flutter
 
 A new Flutter project.
 
