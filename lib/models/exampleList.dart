@@ -34,10 +34,10 @@ List exampleList = [
     examplePage: TabbarWithScrollView(),
   ),
   ExampleList(
-    exampleTitle: 'A simple Scrollablebody with fixed topBar',
+    exampleTitle: 'Use grid and hero show images',
     exampleDescription:
-        'having a fixed topbar below the appBar,and a endless list widget inside the body',
-    exampleImage: 'assets/images/ScrollBodyFixedTopBar.png',
+        'show a groud of images that you do not know how many there are and show the details with hero',
+    exampleImage: 'assets/images/HeroImagePage.png',
     examplePage: HeroImagePage(),
   ),
 ];

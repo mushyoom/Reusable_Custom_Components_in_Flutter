@@ -48,6 +48,7 @@ flutter:
   assets:
     - assets/images/ScrollBodyFixedTopBar.png
     - assets/images/TabbarWithScrollView.png
+    - assets/images/HeroImagePage.png
     - assets/images/hero_image_page/
    
 
