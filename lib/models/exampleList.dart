@@ -1,3 +1,4 @@
+import 'package:awesome_flutter_coding/expand_panel_list.dart';
 import 'package:awesome_flutter_coding/hero_image_page.dart';
 import 'package:awesome_flutter_coding/tabbar_inside_body.dart';
 import 'package:flutter/material.dart';
@@ -39,5 +40,12 @@ List exampleList = [
         'show a groud of images that you do not know how many there are and show the details with hero',
     exampleImage: 'assets/images/HeroImagePage.png',
     examplePage: HeroImagePage(),
+  ),
+  ExampleList(
+    exampleTitle: 'Expandable panel list',
+    exampleDescription:
+        'show a groud of images that you do not know how many there are and show the details with hero',
+    exampleImage: 'assets/images/HeroImagePage.png',
+    examplePage: ExpandablePanelList(),
   ),
 ];
