@@ -1,6 +1,8 @@
 import 'package:awesome_flutter_coding/expand_panel_list.dart';
 import 'package:awesome_flutter_coding/hero_image_page.dart';
+import 'package:awesome_flutter_coding/methods/countdown.dart';
 import 'package:awesome_flutter_coding/tabbar_inside_body.dart';
+import 'package:awesome_flutter_coding/toastMessageBox.dart';
 import 'package:flutter/material.dart';
 
 import '../simlpe_scrollablebody_listview.dart';
@@ -47,5 +49,19 @@ List exampleList = [
         'show a groud of images that you do not know how many there are and show the details with hero',
     exampleImage: 'assets/images/HeroImagePage.png',
     examplePage: ExpandablePanelList(),
+  ),
+  ExampleList(
+    exampleTitle: 'CountDown',
+    exampleDescription:
+        'show a groud of images that you do not know how many there are and show the details with hero',
+    exampleImage: 'assets/images/HeroImagePage.png',
+    examplePage: CountDownPage(),
+  ),
+  ExampleList(
+    exampleTitle: 'ShowToastMessage',
+    exampleDescription:
+        'show a message and two button widgets inside a Toast widget.',
+    exampleImage: 'assets/images/ToastMessage.png',
+    examplePage: ShowToastPage(),
   ),
 ];
