@@ -2,6 +2,8 @@ import 'package:awesome_flutter_coding/expand_panel_list.dart';
 import 'package:awesome_flutter_coding/hero_image_page.dart';
 import 'package:awesome_flutter_coding/methods/countdown.dart';
 import 'package:awesome_flutter_coding/screen/photoView_page.dart';
+import 'package:awesome_flutter_coding/screen/reactionSelectionButton.dart';
+import 'package:awesome_flutter_coding/screen/reaction_button_page.dart';
 import 'package:awesome_flutter_coding/tabbar_inside_body.dart';
 import 'package:awesome_flutter_coding/toastMessageBox.dart';
 import 'package:flutter/material.dart';
@@ -71,5 +73,19 @@ List exampleList = [
         'show severals photos inside a dailog that can be scrolled.',
     exampleImage: 'assets/images/ShowPhotoView.png',
     examplePage: PhotoViewPage(),
+  ),
+  ExampleList(
+    exampleTitle: 'ReactionButtonPage',
+    exampleDescription:
+        'show severals photos inside a dailog that can be scrolled.',
+    exampleImage: 'assets/images/Facebook reaction.png',
+    examplePage: ReactionButtonPage(),
+  ),
+  ExampleList(
+    exampleTitle: 'ReactionSelectPage',
+    exampleDescription:
+        'show severals photos inside a dailog that can be scrolled.',
+    exampleImage: 'assets/images/Facebook reaction.png',
+    examplePage: ReactionSelctionPage(),
   ),
 ];
