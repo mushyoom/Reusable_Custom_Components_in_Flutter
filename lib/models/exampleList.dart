@@ -3,6 +3,7 @@ import 'package:awesome_flutter_coding/hero_image_page.dart';
 import 'package:awesome_flutter_coding/methods/countdown.dart';
 import 'package:awesome_flutter_coding/screen/click_backdropFilter_page.dart';
 import 'package:awesome_flutter_coding/screen/photoView_page.dart';
+import 'package:awesome_flutter_coding/screen/post_page.dart';
 import 'package:awesome_flutter_coding/screen/reactionSelectionButton.dart';
 import 'package:awesome_flutter_coding/screen/reaction_button_page.dart';
 import 'package:awesome_flutter_coding/tabbar_inside_body.dart';
@@ -94,5 +95,11 @@ List exampleList = [
     exampleDescription: 'show filter to cover a widget',
     exampleImage: 'assets/images/BackdropFilterPage.png',
     examplePage: BackdropFilterPage(),
+  ),
+  ExampleList(
+    exampleTitle: 'PostTextField',
+    exampleDescription: 'show PostTextField to post tweeteds and image',
+    exampleImage: 'assets/images/BackdropFilterPage.png',
+    examplePage: PostPage(),
   ),
 ];
