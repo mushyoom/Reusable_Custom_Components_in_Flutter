@@ -2,6 +2,7 @@ import 'package:awesome_flutter_coding/expand_panel_list.dart';
 import 'package:awesome_flutter_coding/hero_image_page.dart';
 import 'package:awesome_flutter_coding/methods/countdown.dart';
 import 'package:awesome_flutter_coding/screen/click_backdropFilter_page.dart';
+import 'package:awesome_flutter_coding/screen/endlesslist_loading_page.dart';
 import 'package:awesome_flutter_coding/screen/photoView_page.dart';
 import 'package:awesome_flutter_coding/screen/post_page.dart';
 import 'package:awesome_flutter_coding/screen/reactionSelectionButton.dart';
@@ -108,5 +109,11 @@ List exampleList = [
     exampleDescription: 'show Shimmer before getting the date from DB',
     exampleImage: 'assets/images/Shimmer.png',
     examplePage: ShimmerPage(),
+  ),
+  ExampleList(
+    exampleTitle: 'Loading endless list',
+    exampleDescription: 'show endless list with loading indicator',
+    exampleImage: 'assets/images/EndlessListLoadingPage.png',
+    examplePage: EndlessListLoadingPage(),
   ),
 ];
