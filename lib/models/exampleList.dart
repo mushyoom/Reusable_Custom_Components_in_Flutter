@@ -6,6 +6,7 @@ import 'package:awesome_flutter_coding/screen/photoView_page.dart';
 import 'package:awesome_flutter_coding/screen/post_page.dart';
 import 'package:awesome_flutter_coding/screen/reactionSelectionButton.dart';
 import 'package:awesome_flutter_coding/screen/reaction_button_page.dart';
+import 'package:awesome_flutter_coding/screen/shimmer_page.dart';
 import 'package:awesome_flutter_coding/tabbar_inside_body.dart';
 import 'package:awesome_flutter_coding/toastMessageBox.dart';
 import 'package:flutter/material.dart';
@@ -101,5 +102,11 @@ List exampleList = [
     exampleDescription: 'show PostTextField to post tweeteds and image',
     exampleImage: 'assets/images/BackdropFilterPage.png',
     examplePage: PostPage(),
+  ),
+  ExampleList(
+    exampleTitle: 'ShimmerPage',
+    exampleDescription: 'show Shimmer before getting the date from DB',
+    exampleImage: 'assets/images/Shimmer.png',
+    examplePage: ShimmerPage(),
   ),
 ];
