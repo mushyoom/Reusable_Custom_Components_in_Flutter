@@ -70,7 +70,6 @@ class _EndlessListLoadingPageState extends State<EndlessListLoadingPage> {
                 ),
               ),
             );
-            ;
           } else if (_index == _list.length) {
             return Center(
               child: CircularProgressIndicator(color: Colors.blueAccent),
