@@ -2,6 +2,7 @@ import 'package:awesome_flutter_coding/expand_panel_list.dart';
 import 'package:awesome_flutter_coding/hero_image_page.dart';
 import 'package:awesome_flutter_coding/methods/countdown.dart';
 import 'package:awesome_flutter_coding/screen/click_backdropFilter_page.dart';
+import 'package:awesome_flutter_coding/screen/custom_clipcurve.dart';
 import 'package:awesome_flutter_coding/screen/endlesslist_loading_page.dart';
 import 'package:awesome_flutter_coding/screen/photoView_page.dart';
 import 'package:awesome_flutter_coding/screen/post_page.dart';
@@ -115,5 +116,11 @@ List exampleList = [
     exampleDescription: 'show endless list with loading indicator',
     exampleImage: 'assets/images/EndlessListLoadingPage.png',
     examplePage: EndlessListLoadingPage(),
+  ),
+  ExampleList(
+    exampleTitle: 'Customized ClipCurved Appbar',
+    exampleDescription: 'Customized a AppBar with curve',
+    exampleImage: 'assets/images/EndlessListLoadingPage.png',
+    examplePage: CustomClipCurve(),
   ),
 ];

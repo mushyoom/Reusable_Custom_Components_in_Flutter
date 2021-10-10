@@ -19,7 +19,7 @@ class _EndlessListLoadingPageState extends State<EndlessListLoadingPage> {
     } else {
       _list = List<int>.generate(100 * _callDataTimes, (i) => i + 1);
       _callDataTimes++;
-      print(_list);
+      // print(_list);
     }
   }
 
