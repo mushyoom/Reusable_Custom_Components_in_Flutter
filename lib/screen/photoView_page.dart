@@ -148,9 +148,11 @@ class _PhotoViewPageState extends State<PhotoViewPage> {
                 style: TextButton.styleFrom(
                   elevation: 1,
                   backgroundColor: Colors.blueAccent,
-                  primary: Colors.white,
                 ),
-                child: Text('show more images'))
+                child: Text(
+                  'show more images',
+                  style: TextStyle(color: Colors.white),
+                ))
           ],
         ));
   }

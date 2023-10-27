@@ -74,9 +74,11 @@ class _ShowToastPageState extends State<ShowToastPage> {
                   fixedSize: Size(50, 34),
                   elevation: 1,
                   backgroundColor: Colors.blueAccent,
-                  primary: Colors.white,
                 ),
-                child: Text('Edit'))
+                child: Text(
+                  'Edit',
+                  style: TextStyle(color: Colors.white),
+                ))
           ],
         ),
       ),
