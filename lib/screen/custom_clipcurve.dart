@@ -18,68 +18,7 @@ class _CustomClipCurveState extends State<CustomClipCurve> {
     );
   }
 
-  //app1
-  PreferredSizeWidget _app1() {
-    return AppBar(
-      brightness: Brightness.light,
-      backgroundColor: Colors.transparent,
-      elevation: 1,
-      toolbarHeight: 70,
-      title: Text("Custom App Bar"),
-      centerTitle: true,
-      flexibleSpace: Container(
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(20),
-                bottomRight: Radius.circular(20)),
-            gradient: LinearGradient(
-                colors: [Colors.red, Colors.pink],
-                begin: Alignment.bottomCenter,
-                end: Alignment.topCenter)),
-      ),
-    );
-  }
-
-  //app2:backbutton
-  PreferredSizeWidget _app2() {
-    return PreferredSize(
-      preferredSize: Size.fromHeight(130.0),
-      child: AppBar(
-        backgroundColor: Colors.transparent,
-        automaticallyImplyLeading: false,
-        elevation: 0.0,
-        flexibleSpace: ClipPath(
-          clipper: CustomShape(),
-          child: Container(
-            height: 250,
-            width: MediaQuery.of(context).size.width,
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                  colors: [Color(0xFFFFB100), Color(0xFFFFB100)],
-                  begin: Alignment(-1, -1),
-                  end: Alignment(-1, -1)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                SizedBox(height: 50),
-                _backBtn(),
-                SizedBox(height: 20),
-                Center(
-                  child: Text(
-                    "O T E N T O",
-                    style: TextStyle(fontSize: 22, color: Colors.white),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  //app3:backbutton
+  //app3:back button
   PreferredSizeWidget _app3() {
     return PreferredSize(
       preferredSize: Size.fromHeight(130.0),
@@ -115,28 +54,6 @@ class _CustomClipCurveState extends State<CustomClipCurve> {
                 ),
               ],
             ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  //back button
-  Widget _backBtn() {
-    return Transform.translate(
-      offset: Offset(25, 10),
-      child: GestureDetector(
-        onTap: () => Navigator.of(context).pop(),
-        child: Container(
-          width: 36,
-          height: 36,
-          padding: const EdgeInsets.all(9.82),
-          decoration: BoxDecoration(
-              color: Colors.white, borderRadius: BorderRadius.circular(13)),
-          child: Icon(
-            Icons.arrow_back_ios_new_rounded,
-            color: Colors.black,
-            size: 16,
           ),
         ),
       ),
